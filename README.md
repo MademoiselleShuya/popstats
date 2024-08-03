@@ -1,4 +1,30 @@
 # popstats
+
+---
+## Project Description
+This repository contains a Python3 version for Popstats. The original script was developed in Python2 by Pontus Skoglund, *et al*. We have restructured the code to improve readability and usability while preserving the original computational methods.
+
+The version can still be improved. Any suggestions for optimizing parameters or improving functionality are welcome and appreciated. Feel free to reach out on ISSUES. Thank you for your interest!
+
+## Code Structure
+```bazaar
+.
+├── README.md
+├── __init__.py
+├── block_jackknife.py         # block jackknife method
+├── computing_functions.py     # the set of statistics computing functions
+├── generate_output.py         # generate output
+├── main.py                    # main script
+├── parameters.py              # all the parameters in the command line
+├── parse_parameters.py        # the functions for parsing the parameters
+├── process_tped_data.py       # processing the tped data
+├── requirements.txt
+└── utils.py
+
+```
+
+---
+## Original Popstats Usage Instructions
 Population genetic summary statistics
 
 POPSTATS is a python program for computing f-statistics, population symmetry tests, and other population genetic quantities. It also allows estimation of the h4-statistic, first used in Skoglund et al. (2015, Nature). This is a preliminary release, more documentation and a polished version to follow.
