@@ -9,17 +9,17 @@ The version can still be improved. Any suggestions for optimizing parameters or 
 ## Code Structure
 ```bazaar
 .
-├── README.md
-├── __init__.py
-├── block_jackknife.py         # block jackknife method
-├── computing_functions.py     # the set of statistics computing functions
-├── generate_output.py         # generate output
-├── main.py                    # main script
-├── parameters.py              # all the parameters in the command line
-├── parse_parameters.py        # the functions for parsing the parameters
-├── process_tped_data.py       # processing the tped data
-├── requirements.txt
-└── utils.py
+├── README.md                 
+├── __init__.py               
+├── block_jackknife.py        # Implementation of Block Jackknife for statistical analysis
+├── computing_functions.py    # Functions for computing various statistical metrics
+├── generate_output.py        # Script for generating output based on processed data
+├── main.py                   # Main Script
+├── parameters.py             # Definition of command-line parameters and configuration options
+├── parse_parameters.py       # Functions for parsing and validating command-line arguments
+├── process_tped_data.py      # Processing and handling of TPED(input) data files
+├── requirements.txt          
+└── utils.py                  
 
 ```
 
